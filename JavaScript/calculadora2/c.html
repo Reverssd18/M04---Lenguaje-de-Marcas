@@ -4,40 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-    <link rel="stylesheet" href="calc.css">
+    <link rel="stylesheet" href="c.css">
 </head>
 <header>
-  <h1> Calculadora Parte 2</h1>
+    <h1> Calculadora Desde Cero</h1>
 </header>
 <body>
-    <div>
+    <div class="calculadora">
         <input id="pantalla" type="text"  />
-        <div>
-            <button class="botones" data-value="1">1</button>
-            <button class="botones" data-value="2">2</button>
-            <button class="botones" data-value="3">3</button>
-            <button class="botones" data-value="+">+</button>
-        </div>
-        <div>
-            <button class="botones" data-value="4">4</button>
-            <button class="botones" data-value="5">5</button>
-            <button class="botones" data-value="6">6</button>
-            <button class="botones" data-value="-">-</button>
-        </div>
-        <div>
+        <div class="botones">
+        <div class="botonera">
+            <button class="botones"id="limpio">C</button>
+            <button class="botones" id="retroceso">←</button>
+            <button class="botones" data-value="/">/</button>
+            <button class="botones" data-value="*">*</button>
+            
             <button class="botones" data-value="7">7</button>
             <button class="botones" data-value="8">8</button>
             <button class="botones" data-value="9">9</button>
-            <button class="botones" data-value="*">*</button>
-        </div>
-        <div>
-            <button class="botones" data-value="0">0</button>
+            <button class="botones" data-value="-">-</button>
+
+            <button class="botones" data-value="4">4</button>
+            <button class="botones" data-value="5">5</button>
+            <button class="botones" data-value="6">6</button>
+            <button class="botones" data-value="+">+</button>
+
+            <button class="botones" data-value="1">1</button>
+            <button class="botones" data-value="2">2</button>
+            <button class="botones" data-value="3">3</button>
+            <button class="botones" data-value="0" id="cero" >0</button>
             <button class="botones" data-value=".">.</button>
-            <button id="igual">=</button>
-            <button class="botones" data-value="/">/</button>
+            <button class="botones" id="igual">=</button>
         </div>
-        <button id="limpio">C</button>
+
+        
     </div>
-    <script src="calc.js"></script>
+    <script src="c.js"></script>
 </body>
 </html>

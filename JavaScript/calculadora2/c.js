@@ -6,7 +6,11 @@ const btn_limpiar = document.getElementById('limpio');
 botones.forEach(boton => {
     boton.addEventListener('click', () => {
         const valor = boton.getAttribute('data-value');
-        pantalla.value += valor;
+        if (valor) {
+            pantalla.value += valor;
+        }
+
+
     });
 });
 
@@ -15,9 +19,18 @@ btn_limpiar.addEventListener('click', () => {
 });
 
 btn_igual.addEventListener('click', () => {
+    if (pantalla.value === 'Error ("C" to clear)') {
+        pantalla.value = '';
+    }
     try {
-        pantalla.value = eval(pantalla.value);
+        const result = eval(pantalla.value);
+        if (result === undefined) {
+            pantalla.value = 'Error ("C" to clear)';
+        } else {
+            pantalla.value = result;
+        }
     } catch {
-        pantalla.value = 'Error';
+        pantalla.value = 'Error ("C" to clear)';
     }
 });
+
