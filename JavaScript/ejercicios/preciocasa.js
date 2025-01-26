@@ -26,7 +26,7 @@ function getDescuentos() {
 function calcularDescuentos() {
     getDescuentos();
     if (parseInt(descuento) == -1) {
-        result.value ='No se puede vender a menores de edad';
+        result.textContent ='No se puede vender a menores de edad';
     }
     else {
         result.textContent = precio_original.value - (precio_original.value * descuento / 100);
