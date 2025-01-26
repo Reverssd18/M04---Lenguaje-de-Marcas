@@ -48,8 +48,8 @@ header h1 {
 
 .botonera {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
-    gap: 5px; /* Espacio entre los botones */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -64,7 +64,7 @@ button {
     transition: background-color 0.3s, transform 0.1s, box-shadow 0.3s;
     box-shadow: 0 5px rgba(0, 0, 0, 0.2);
     height: 50px;
-    width: 100%; /* Asegura que los botones llenen su contenedor */
+    width: 100%;
 }
 
 button:hover {
@@ -82,6 +82,7 @@ button:active {
     background-color: #0078d7;
     color: #fff;
     grid-row: span 2;
+    display: grid;
 }
 #igual:hover {
     background-color: #005a9e;
@@ -94,7 +95,6 @@ button:active {
 #limpio {
     background-color: #f44336;
     color: #fff;
-
 }
 
 #limpio:hover {
@@ -106,5 +106,5 @@ button:active {
 }
 
 #cero {
-    grid-column: span 2; 
+    grid-column: span 2;
 }

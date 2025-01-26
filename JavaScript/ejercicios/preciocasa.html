@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Precio de Casa y Edad</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 20px;
+            background-color: #1e1e1e;
+            color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #f4f4f4;
+        }
+        form {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="number"], input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #555;
+            border-radius: 8px;
+            background-color: #444;
+            color: #f4f4f4;
+        }
+        button {
+            background-color: #007AFF;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        p {
+            font-size: 1.2em;
+            color: #f4f4f4;
+        }
+        #result {
+            width: 50%;
+            text-align: center;
+            margin: 0 auto;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculadora de Precio de Casa y Edad</h1>
+    
+    <h2>Calcular Precio de Casa</h2>
+    <form id="housePriceForm">
+        <label for="prize">Precio original de la casa:</label>
+        <input type="number" id="prize" name="prize" required>
+        <br>
+    </form>
+    <p id="housePriceResult"></p>
+    
+    <h2>Edad</h2>
+    <form id="ageForm">
+        <label for="birthYear">Ingresa tu edad:</label>
+        <input type="number" id="age" name="age" required>
+    </form>
+    <p id="ageResult"></p>
+
+    <h2 style="text-align: center;">Resultado</h2>
+    <form id="resultForm" style="text-align: center;">
+        <label type="text" id="result" name="result" readonly style="display: block; margin: 0 auto;">
+    </form>
+    <p id="resultDisplay" style="text-align: center;"></p>
+</body>
+<script src="preciocasa.js"></script>
