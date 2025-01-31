@@ -33,5 +33,6 @@ function calcularDescuentos() {
     }
 }
 
-document.getElementById('prize').addEventListener('input', calcularDescuentos);
-document.getElementById('age').addEventListener('input', calcularDescuentos);
+
+precio_original.addEventListener('input', calcularDescuentos);
+edad.addEventListener('input', calcularDescuentos);
