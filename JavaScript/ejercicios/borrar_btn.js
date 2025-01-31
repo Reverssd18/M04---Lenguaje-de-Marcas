@@ -1,8 +1,8 @@
 const borrartxt = document.getElementById('borrar');
-const divtexto = document.getElementById('texto')
+const divtexto = document.getElementById('texto');
 
 function borrar() {
-    divtexto.style.visibility = 'hidden';
+    divtexto.hidden = true;
 }
 
-document.getElementById('borrar').addEventListener('click', borrar);
+borrartxt.addEventListener('click', borrar);

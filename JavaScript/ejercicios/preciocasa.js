@@ -12,6 +12,7 @@ function getDescuentos() {
         descuento = 0;
     } else if (age <= 17) {
         descuento = -1;
+        mayor = false;
     } else if (age >= 18 && age <= 30) {
         descuento = 25;
     } else if (age > 30 && age <= 60) {
@@ -25,7 +26,7 @@ function getDescuentos() {
 
 function calcularDescuentos() {
     getDescuentos();
-    if (parseInt(descuento) == -1) {
+    if (descuento == -1) {
         result.textContent ='No se puede vender a menores de edad';
     }
     else {
