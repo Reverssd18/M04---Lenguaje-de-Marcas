@@ -1,0 +1,236 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<root type="database">
+<gimnas>
+
+    <usuaris type="table">
+        <usuari type="row">
+            <id_usuari>1</id_usuari>
+            <DNI>12345678A</DNI>
+            <nom>Joan</nom>
+            <cognoms>Perez</cognoms>
+            <telefon>123456789</telefon>
+            <email>joan.perez@example.com</email>
+            <direccio>Carrer Major, 1</direccio>
+            <codi_postal>08001</codi_postal>
+            <id_abonament>1</id_abonament>
+        </usuari>
+        <usuari type="row">
+            <id_usuari>2</id_usuari>
+            <DNI>23456789B</DNI>
+            <nom>Maria</nom>
+            <cognoms>Lopez</cognoms>
+            <telefon>987654321</telefon>
+            <email>maria.lopez@example.com</email>
+            <direccio>Carrer Nou, 2</direccio>
+            <codi_postal>08002</codi_postal>
+            <id_abonament>2</id_abonament>
+        </usuari>
+        <usuari type="row">
+            <id_usuari>3</id_usuari>
+            <DNI>34567890C</DNI>
+            <nom>Anna</nom>
+            <cognoms>Garcia</cognoms>
+            <telefon>123123123</telefon>
+            <email>anna.garcia@example.com</email>
+            <direccio>Carrer Vell, 3</direccio>
+            <codi_postal>08003</codi_postal>
+            <id_abonament>3</id_abonament>
+        </usuari>
+        <usuari type="row">
+            <id_usuari>4</id_usuari>
+            <DNI>45678901D</DNI>
+            <nom>Marc</nom>
+            <cognoms>Martinez</cognoms>
+            <telefon>321321321</telefon>
+            <email>marc.martinez@example.com</email>
+            <direccio>Carrer Nou, 4</direccio>
+            <codi_postal>08004</codi_postal>
+            <id_abonament>4</id_abonament>
+        </usuari>
+        <usuari type="row">
+            <id_usuari>5</id_usuari>
+            <DNI>56789012E</DNI>
+            <nom>Laura</nom>
+            <cognoms>Sanchez</cognoms>
+            <telefon>456456456</telefon>
+            <email>laura.sanchez@example.com</email>
+            <direccio>Carrer Major, 5</direccio>
+            <codi_postal>08005</codi_postal>
+            <id_abonament>5</id_abonament>
+        </usuari>
+    </usuaris>
+
+    <proveidors type="table">
+        <proveidor type="row">
+            <id_proveidor>1</id_proveidor>
+            <NIF>A12345678</NIF>
+            <nom>Proveidor 1</nom>
+            <telefon>111111111</telefon>
+            <email>proveidor1@example.com</email>
+            <direccio>Carrer Proveidors, 1</direccio>
+            <ids_productes>1,2</ids_productes>
+            <persona_contacte>Contacte 1</persona_contacte>
+        </proveidor>
+        <proveidor type="row">
+            <id_proveidor>2</id_proveidor>
+            <NIF>B23456789</NIF>
+            <nom>Proveidor 2</nom>
+            <telefon>222222222</telefon>
+            <email>proveidor2@example.com</email>
+            <direccio>Carrer Proveidors, 2</direccio>
+            <ids_productes>3,4</ids_productes>
+            <persona_contacte>Contacte 2</persona_contacte>
+        </proveidor>
+        <proveidor type="row">
+            <id_proveidor>3</id_proveidor>
+            <NIF>C34567890</NIF>
+            <nom>Proveidor 3</nom>
+            <telefon>333333333</telefon>
+            <email>proveidor3@example.com</email>
+            <direccio>Carrer Proveidors, 3</direccio>
+            <ids_productes>5,6</ids_productes>
+            <persona_contacte>Contacte 3</persona_contacte>
+        </proveidor>
+        <proveidor type="row">
+            <id_proveidor>4</id_proveidor>
+            <NIF>D45678901</NIF>
+            <nom>Proveidor 4</nom>
+            <telefon>444444444</telefon>
+            <email>proveidor4@example.com</email>
+            <direccio>Carrer Proveidors, 4</direccio>
+            <ids_productes>7,8</ids_productes>
+            <persona_contacte>Contacte 4</persona_contacte>
+        </proveidor>
+        <proveidor type="row">
+            <id_proveidor>5</id_proveidor>
+            <NIF>E56789012</NIF>
+            <nom>Proveidor 5</nom>
+            <telefon>555555555</telefon>
+            <email>proveidor5@example.com</email>
+            <direccio>Carrer Proveidors, 5</direccio>
+            <ids_productes>9,10</ids_productes>
+            <persona_contacte>Contacte 5</persona_contacte>
+        </proveidor>
+    </proveidors>
+
+    <productes type="table">
+        <producte type="row">
+            <id_producte>1</id_producte>
+            <nom>Producte 1</nom>
+            <fungible>true</fungible>
+            <quantitat_actual>100</quantitat_actual>
+        </producte>
+        <producte type="row">
+            <id_producte>2</id_producte>
+            <nom>Producte 2</nom>
+            <fungible>true</fungible>
+            <quantitat_actual>200</quantitat_actual>
+        </producte>
+        <producte type="row">
+            <id_producte>3</id_producte>
+            <nom>Producte 3</nom>
+            <fungible>false</fungible>
+            <quantitat_actual>50</quantitat_actual>
+        </producte>
+        <producte type="row">
+            <id_producte>4</id_producte>
+            <nom>Producte 4</nom>
+            <fungible>false</fungible>
+            <quantitat_actual>75</quantitat_actual>
+        </producte>
+        <producte type="row">
+            <id_producte>5</id_producte>
+            <nom>Producte 5</nom>
+            <fungible>true</fungible>
+            <quantitat_actual>150</quantitat_actual>
+        </producte>
+        <producte type="row">
+            <id_producte>6</id_producte>
+            <nom>Producte 6</nom>
+            <fungible>true</fungible>
+            <quantitat_actual>300</quantitat_actual>
+        </producte>
+        <producte type="row">
+            <id_producte>7</id_producte>
+            <nom>Producte 7</nom>
+            <fungible>false</fungible>
+            <quantitat_actual>20</quantitat_actual>
+        </producte>
+        <producte type="row">
+            <id_producte>8</id_producte>
+            <nom>Producte 8</nom>
+            <fungible>false</fungible>
+            <quantitat_actual>40</quantitat_actual>
+        </producte>
+        <producte type="row">
+            <id_producte>9</id_producte>
+            <nom>Producte 9</nom>
+            <fungible>true</fungible>
+            <quantitat_actual>500</quantitat_actual>
+        </producte>
+        <producte type="row">
+            <id_producte>10</id_producte>
+            <nom>Producte 10</nom>
+            <fungible>true</fungible>
+            <quantitat_actual>600</quantitat_actual>
+        </producte>
+    </productes>
+
+    <abonaments type="table">
+        <abonament type="row">
+            <id_abonament>1</id_abonament>
+            <id_horari>1</id_horari>
+            <descripcio>Abonament mensual</descripcio>
+        </abonament>
+        <abonament type="row">
+            <id_abonament>2</id_abonament>
+            <id_horari>2</id_horari>
+            <descripcio>Abonament trimestral</descripcio>
+        </abonament>
+        <abonament type="row">
+            <id_abonament>3</id_abonament>
+            <id_horari>3</id_horari>
+            <descripcio>Abonament semestral</descripcio>
+        </abonament>
+        <abonament type="row">
+            <id_abonament>4</id_abonament>
+            <id_horari>4</id_horari>
+            <descripcio>Abonament anual</descripcio>
+        </abonament>
+        <abonament type="row">
+            <id_abonament>5</id_abonament>
+            <id_horari>5</id_horari>
+            <descripcio>Abonament diari</descripcio>
+        </abonament>
+    </abonaments>
+
+    <horaris type="table">
+        <horari type="row">
+            <id_horari>1</id_horari>
+            <dies_valids>Dilluns a Divendres</dies_valids>
+            <hores_valides>08:00-20:00</hores_valides>
+        </horari>
+        <horari type="row">
+            <id_horari>2</id_horari>
+            <dies_valids>Dilluns a Divendres</dies_valids>
+            <hores_valides>06:00-22:00</hores_valides>
+        </horari>
+        <horari type="row">
+            <id_horari>3</id_horari>
+            <dies_valids>Dilluns a Dissabte</dies_valids>
+            <hores_valides>08:00-18:00</hores_valides>
+        </horari>
+        <horari type="row">
+            <id_horari>4</id_horari>
+            <dies_valids>Dilluns a Diumenge</dies_valids>
+            <hores_valides>10:00-20:00</hores_valides>
+        </horari>
+        <horari type="row">
+            <id_horari>5</id_horari>
+            <dies_valids>Dilluns a Diumenge</dies_valids>
+            <hores_valides>24 hores</hores_valides>
+        </horari>
+    </horaris>
+
+</gimnas>
+</root>
