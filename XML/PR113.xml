@@ -1,0 +1,29 @@
+<!-- 
+Nuestro nombre 
+Nuestra edad
+El guion de una pelicula que mas nos guste 
+Nuestra pelicula favorita
+El director de nuestra pelicula favorita
+El año 
+El actor que mas te gusta
+La edad que tiene el actor
+El genero del actor
+
+-->
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<persona id="1">
+    <nombre> Victor Prieto</nombre>
+    <edad> 19</edad>
+</persona>
+
+<pelicula>
+    <persona id="1"></persona>
+    <genero> Humor </genero>
+    <pelicula_favorita> Ocho apellidos vascos</pelicula_favorita>
+    <director> Emilio Martínez-Lázaro </director>
+    <año>2014</año>
+    <actor_favorito> Dani Robira </actor_favorito>
+    <edad_actor> 44 </edad_actor>
+    <sexo> Hombre </sexo>
+</pelicula>
