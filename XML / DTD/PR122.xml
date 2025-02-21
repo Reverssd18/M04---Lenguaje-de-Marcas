@@ -1,14 +1,53 @@
 <?xml version="1.1" encoding="UTF-8" ?>
-<!DOCTYPE tv SYSTEM "PR120.dtd">
-
-
-<programacio>
-    <canal>
-        <nom>TV3</nom>
+<programacio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PR122.xsd">
+    <canal nom="TV3">
+        <publicitat>Ad 1</publicitat>
+        <dia data="2023-10-01">
+            <programes>
+                <programa edat="T" idioma="ca">
+                    <duracio>60</duracio>
+                    <titol>News</titol>
+                </programa>
+            </programes>
+        </dia>
+    </canal>
+    <canal nom="TVE">
+        <publicitat>Ad 2</publicitat>
+        <dia data="2023-10-01">
+            <programes>
+                <programa edat="T" idioma="es">
+                    <duracio>30</duracio>
+                    <titol>Morning Show</titol>
+                    <resum>Summary 1</resum>
+                    <resum>Summary 2</resum>
+                </programa>
+                <programa edat="T" idioma="es">
+                    <duracio>45</duracio>
+                    <titol>Cooking Show</titol>
+                </programa>
+                <programa edat="T" idioma="es">
+                    <duracio>60</duracio>
+                    <titol>Evening News</titol>
+                    <resum>Summary 1</resum>
+                    <resum>Summary 2</resum>
+                    <resum>Summary 3</resum>
+                </programa>
+            </programes>
+        </dia>
+    </canal>
+    <canal nom="BBC">
+        <publicitat>Ad 3</publicitat>
+        <dia data="2023-10-01">
+            <programes>
+                <programa edat="T" idioma="en">
+                    <duracio>50</duracio>
+                    <titol>Documentary</titol>
+                </programa>
+                <programa edat="T" idioma="en">
+                    <duracio>40</duracio>
+                    <titol>Talk Show</titol>
+                </programa>
+            </programes>
+        </dia>
     </canal>
 </programacio>
-
-<publicitat>
-
-
-</publicitat>
