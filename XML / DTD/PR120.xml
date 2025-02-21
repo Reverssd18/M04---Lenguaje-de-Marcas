@@ -1,0 +1,20 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE catalog SYSTEM "PR120.dtd">
+<catalog>
+<plant id="id_0">
+    <common>Bloodroot</common>
+    <botanical>Sanguinaria canadensis</botanical>
+    <zone>4</zone>
+    <light>Mostly Shady</light>
+    <price>2.44</price>
+    <availability>07162019</availability>
+</plant>
+<plant id="id_1">
+    <common>Columbine</common>
+    <botanical>Aquilegia canadensis</botanical>
+    <zone>3</zone>
+    <light>Mostly Shady</light>
+    <price>9.37</price>
+    <availability>07162019</availability>
+</plant>
+</catalog>
