@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<primera_generacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="generacion.xsd">
+    <progenitor>
+        <persona>
+            <nombre>John Doe</nombre>
+        </persona>
+        <yo>
+            <persona>
+                <nombre>Victor</nombre>
+            </persona>
+        </yo>
+    </progenitor>
+    <segunda_generacion>
+        <persona>
+            <nombre>Jane Doe</nombre>
+        </persona>
+        <tercera_generacion>
+            <persona>
+                <nombre>Emily Doe</nombre> 
+            </persona>
+            <persona>
+                <nombre>Michael Doe</nombre>
+            </persona>
+            <persona>
+                <nombre>Sarah Doe</nombre>
+            </persona>
+            <persona>
+                <nombre>David Doe</nombre>
+            </persona>
+            <persona>
+                <nombre>James Doe</nombre>
+            </persona>
+        </tercera_generacion>
+    </segunda_generacion>
+</primera_generacion>

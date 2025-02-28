@@ -1,0 +1,71 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="semana">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="lunes">
+                <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="desayuno" type="xs:string"/>
+                            <xs:element name="comida" type="xs:string"/>
+                            <xs:element name="cena" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="martes">
+                <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="desayuno" type="xs:string"/>
+                            <xs:element name="comida" type="xs:string"/>
+                            <xs:element name="cena" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="miercoles">
+                <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="desayuno" type="xs:string"/>
+                            <xs:element name="comida" type="xs:string"/>
+                            <xs:element name="cena" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="jueves">
+                <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="desayuno" type="xs:string"/>
+                            <xs:element name="comida" type="xs:string"/>
+                            <xs:element name="cena" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="viernes">
+                <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="desayuno" type="xs:string"/>
+                            <xs:element name="comida" type="xs:string"/>
+                            <xs:element name="cena" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="sabado">
+                <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="desayuno" type="xs:string"/>
+                            <xs:element name="comida" type="xs:string"/>
+                            <xs:element name="cena" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="domingo">
+                <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="desayuno" type="xs:string"/>
+                            <xs:element name="comida" type="xs:string"/>
+                            <xs:element name="cena" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,38 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<semana xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dieta.xsd">
+    <lunes>
+        <desayuno>Café con leche y tostadas</desayuno>
+        <comida>Ensalada de pollo</comida>
+        <cena>Sopa de verduras</cena>
+    </lunes>
+    <martes>
+        <desayuno>Yogur con frutas</desayuno>
+        <comida>Arroz con verduras</comida>
+        <cena>Pescado al horno</cena>
+    </martes>
+    <miercoles>
+        <desayuno>Batido de proteínas</desayuno>
+        <comida>Pasta con salsa de tomate</comida>
+        <cena>Ensalada de atún</cena>
+    </miercoles>
+    <jueves>
+        <desayuno>Huevos revueltos</desayuno>
+        <comida>Pollo a la plancha con patatas</comida>
+        <cena>Crema de calabaza</cena>
+    </jueves>
+    <viernes>
+        <desayuno>Avena con miel</desayuno>
+        <comida>Hamburguesa de ternera</comida>
+        <cena>Pizza casera</cena>
+    </viernes>
+    <sabado>
+        <desayuno>Panqueques con sirope</desayuno>
+        <comida>Paella</comida>
+        <cena>Ensalada César</cena>
+    </sabado>
+    <domingo>
+        <desayuno>Churros con chocolate</desayuno>
+        <comida>Cordero asado</comida>
+        <cena>Tabla de quesos</cena>
+    </domingo>
+</semana>

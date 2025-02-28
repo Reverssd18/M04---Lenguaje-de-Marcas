@@ -1,0 +1,30 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!-- 
+Nuestro nombre 
+Nuestra edad
+El guion de una pelicula que mas nos guste 
+Nuestra pelicula favorita
+El director de nuestra pelicula favorita
+El año 
+El actor que mas te gusta
+La edad que tiene el actor
+El genero del actor
+
+-->
+<pelicula xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="peli.xsd">
+    <persona>
+        <nombre>Victor Prieto</nombre>
+        <edad>19</edad>
+    </persona>
+    <pelicula>
+        <genero>Humor</genero>
+        <titulo>Ocho apellidos vascos</titulo>
+        <director>Emilio Martinez Lazaro</director>
+        <año>2014</año>
+        <actor_favorito>
+            <nombre>Dani Rovira</nombre>
+            <edad>44</edad>
+            <sexo>Masculino</sexo>
+        </actor_favorito>
+    </pelicula>
+</pelicula>

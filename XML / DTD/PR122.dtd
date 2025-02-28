@@ -1,4 +1,5 @@
 <!ELEMENT programacio (canal+)>
+<!ELEMENT programacio (canal+)>
 <!ELEMENT canal (publicitat, dia+)>
 <!ATTLIST canal nom CDATA #REQUIRED>
 <!ELEMENT publicitat (#PCDATA)>
